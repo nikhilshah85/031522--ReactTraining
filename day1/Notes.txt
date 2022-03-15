@@ -1,0 +1,117 @@
+		Web Revolution
+
+1. First time used internet - 2007
+2. Where did u use - Cyber
+3. Internet mode - Lan / Telephone / Wifi-rare - Lan
+4. Devise used at that point time - Laptop - Desktop
+5. Why did u used internet 
+
+--- This is between 2003 - till 2015
+
+1. First time user would on a mobile phone
+2. Where do they use internet - Everywhere (Cab, Bus, airport, street)
+3. Mobile Device / tablet / watches 
+4. Mode - Mobile data - 2G / 3G / 4G - lots of flutuation
+5. Habbits 
+	if u start a video on mobile  phone - we flip - content also has to flip
+	if u see an image - u zoom
+	web cam - goe location 
+	u use internet when u travel
+
+
+	Resolution - As a developer You have to develop web contents which will fit on all the devices
+
+		Apple screen size is different - width and height
+
+		Not only phone, u also have tablets and Ipads, also smart TV's
+---------------------------
+		As a user - what do u do, when you are super hungry with no one-no food at home
+			Swiggy - Zomato- 	Mobile Phone
+			Once u place Order - u need the fast dilivery (same thing with internet)
+
+	As a developer u have to develop to meet the above requirement
+		Develope a Responsive UI which is ready to change based on users need
+		and for developerrs easy to maintain 
+
+		Thus they started working on the same
+
+		Solution came in as - client centeric framework 
+
+		what works on client machine ? HTML / CSS and JS 
+				Thus some advance ment needed 
+				and so W3C gave us HTML5 
+						   CSS3 
+						JS - had a chanllange - was not Object oriented
+
+			Thus W3C and ECMA gave us ES6-ES7 (Ecma Script)
+				European Computer manufacturing Association
+			So based on ES6 specifications - FB went ahead and created a client centeric framework
+				React - they have their own DOM - and it works same way on all the browsers/devises
+
+			React used a pattern - Component Based development
+				Component is like a Plugin -
+ 
+			React is all about Component
+		React app  - can be developed on any platofrm - and be hosted on any platform
+			We will be useing NodeJS and Visual Studio code 
+
+
+		NPM on node will allow us to download and configure React
+
+			JS is now with OOPS
+		u will classes, data types, interface, contructor etc...
+			brwsers does not understand all this
+		thus node js will convert them to browser understandable JS (Old js)
+		and then host the contents
+
+		ES6-7 has its own syntax, not similar to what developers knowsw
+			OOPS, classes, functions, properties, lots of stuff
+
+		Microsoft implmented ES 
+		added a wrapper on ES - with easy keywords similar to Java and C#
+			also gave a compiler for the same
+			Called it as Typescript
+
+			we will use an editor - Visual Studio Code 
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
