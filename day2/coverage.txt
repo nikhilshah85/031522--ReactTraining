@@ -1,0 +1,5 @@
+We saw
+	Class Component and Function component
+	Variables, properties, a little bit of architecture
+	Props 
+	

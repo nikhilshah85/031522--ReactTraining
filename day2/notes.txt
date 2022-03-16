@@ -1,0 +1,18 @@
+
+
+function App() {
+  return (
+<div>
+	<Employee></Employee>
+	<Products>
+		<Electronics></Electronics>
+		<Shirts></Shirts>
+	</Products>
+
+	1 of the common development is passing the data between components
+	Data can be passed from parent to child only and not vice-versa
+
+	Parents will pass data to child, using Props and state
+				props are mutuables (i.e changes made at one place will not reflect 
+						at other place)
+				States are not mutables

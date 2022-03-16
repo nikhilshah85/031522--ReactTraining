@@ -1,0 +1,6 @@
+We discussed Modern Web
+Introduction to react
+We installed React and node
+Created first React APP
+how to run
+make changes
