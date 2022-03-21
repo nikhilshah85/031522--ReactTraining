@@ -1,0 +1,41 @@
+1. Modern Web - Web Revolution
+2. Setup - NodeJS, VS Code, Installed react using NPM 
+3. First React APP, Components
+4. ES6-ES7 - JS is now OOPS, classes, methods, variables, properties, constructor etc.
+5. Passing data from parent to child using props
+	props allowed us to pass data from parent to child (its one way)
+	props are mutable, if you make a change in parent propery (empName)
+		and when same is passed to child, when value in parent changes, 
+			changes will not reflect in child
+
+	States are not mutable
+
+	Todays Agenda 
+		Props
+		State
+		map function (very imp)
+
+
+
+	There are 4 types of data React deals with (this data generally comes from Rest)
+
+	a. plain variable - empName = "Nikhil"
+	b. plain array  -  skills:['React','Angular','Azure Cloud','.Net','SQL Server']
+	c. JSON Object - empDetails:{ firstName:'Nikhil', lastName:'Shah',age:30,isPermenant:true }
+	d. JSON Object Array - empList:[
+{ firstName:'Nikhil',lastName:'Shah',age:30,isPermenant:true },
+{ firstName:'Nikhil', lastName:'Shah',age:30,isPermenant:true },
+{ firstName:'Nikhil', lastName:'Shah',age:30,isPermenant:true },
+{ firstName:'Nikhil', lastName:'Shah',age:30,isPermenant:true },
+{ firstName:'Nikhil', lastName:'Shah',age:30,isPermenant:true },
+{ firstName:'Nikhil', lastName:'Shah',age:30,isPermenant:true },
+
+	Map function from ES is used to iterate throught the collections 
+
+
+
+
+
+
+
+
