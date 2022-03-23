@@ -1,0 +1,21 @@
+State - like a container - static variable - global variable - when many components want to share
+		data, access same data, modify,and data(changes) to be reflected everywhere
+
+		you use state
+		They reflect changes, you make a change in one component, changes will seen in 
+			other componnent
+		
+		Today: How to pass the functions in state, there something different vs properties
+			we will have to bind the functions
+		
+			we have setState() method, which will change the value in a state variable
+
+
+			When you have any function in react, trying to change the state
+				(function is not a part of state variable)
+				we need to bind it, this is
+			
+Props - read only data - useful when parent want to pass something to child component for display
+
+	eg. App Name - should not be changed
+	     Login time, session, etc., intrest rate
