@@ -1,0 +1,18 @@
+Todays app
+
+	Shopping APP
+		Home (welcome and landing component)
+		productsList
+		AddProduct
+		SearchProduct
+		Delete
+		Update
+		Cart
+	
+
+React Router
+	State
+	Props
+	Rest calls
+	Events
+	javascript function, add, update, delete, sort, filter

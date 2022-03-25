@@ -1,0 +1,8 @@
+1. How to create an React APP
+2. What are components and how to craete them
+3. Props and State
+4. Forms and Events
+5. REST API call (standard fetch api)
+6. SPA app - Single paged Application (Routing in React)
+
+	we need to install react-router-dom
