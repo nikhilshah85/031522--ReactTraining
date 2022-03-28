@@ -1,0 +1,69 @@
+React Life Cycle
+
+	1. Initial Phase - components gets its life - they get initilized in VM
+		it containts all the default props and state declared, the one which are 
+			declared in the constructor
+
+			To check which props and state were there
+			u can use
+
+			a. getDefaultProps()
+			b. getInitialState() 	
+				very much asked in an interview
+	once done
+	
+	2. Mount Phase- Component Mount (i.e, Component will get attached to Virtual DOM)
+			
+			a. componentWillMount() -put anything here - change the security / encodeing / 						decoding techniques
+			b. componentDidMount()  - initilize all the imp variables
+			c. render() - put ur HTML, css, loop throught the data etc....
+	3. Updateing Phase - changes to data, changes to UI, changes to IP Address 
+			very imp phase
+			a. componentWillRecieveProps()
+				The new props values will be coming here
+			
+				lets say, current values are 
+				offerPrice = 25000;
+
+				prices keeps changeing, in the parent component, thus in the parent 					component, it is 
+				offerPrice = 26000; //new price, the old price is lost, overridden
+						and this is happening every 4 hours
+				we want to keep a array variable which will store the previous 				data,along with 
+				time, who updated it and, reason and everything
+
+		sometimes, you want your component to be very static after been created
+
+			b. componentShouldUpdate()
+			c. componentWillUpdate() 
+			d. componentDidUpdate() - make a log entery here, send some notification
+
+	4. componentwillUnmount() - user is closeing the app,or a tab (logout link is still a 					component)
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

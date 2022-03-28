@@ -1,0 +1,16 @@
+fetch is an inbuilt function of latest browsers 
+	fetch is based on w3c and ECMA
+but if your application is app based, you willhave a problme
+
+different browsers implements it in different ways
+	threads, workers, memeory management lots of things are
+		different 
+
+	this is not a bad*****, just make sure users are using the 
+	latest browsers
+-----------
+against this, 
+	axios is much advanced by not dependening on browsers
+	works same way on all the browser, also light weigh
+	based on w3c standards
+	recommened to be used with React
