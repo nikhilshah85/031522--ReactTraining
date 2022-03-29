@@ -1,0 +1,57 @@
+1. useState
+2. useEffect
+3. useRef 
+
+
+
+myName = useState('Nikhil');
+myAge = useState(30);
+myProfile = useState(false);
+myContact = useState({email:'nik@somehwere.com',phone:403298,mobile:98989});
+mySkills = useState(['React','Angular','.Net'])
+
+there is a better way to declare as well
+
+we use to have a function, which can make chnges to state
+this function then needs to be binded
+	Why ?
+
+also you can change state in multiple functions in a class based component, this is not a good discipline
+	change the myName in 2 or 3 places 
+		editProfile()
+		{
+			this.setState({myName:'Nikhil Shah'});
+		}
+
+		changeMyName()
+		{
+			this.setState({myName:'Nikhil Shah'});
+		}
+
+
+
+useState( para1, para2);
+
+para1 is the varaible - eg myName
+para2 is the function - which can change its value;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
