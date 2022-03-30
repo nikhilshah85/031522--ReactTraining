@@ -4,6 +4,7 @@ import Greet from './FunctionalComponent/Greet'
 import DemoStateHook from './FunctionalComponent/useStateHookDemo';
 import Counter from './FunctionalComponent/Counter';
 import {useState} from 'react';
+import HookDemo from './FunctionalComponent/Hooksdemo';
 function App() {
 
   const [appName,changeAppName] = useState('This is a training APP');
@@ -11,7 +12,8 @@ function App() {
     <div>
        {/* <Greet/>  
         <DemoStateHook/>   */}
-        <Counter applicationName={appName}></Counter>
+        {/* <Counter applicationName={appName}></Counter> */}
+        <HookDemo></HookDemo>
     </div>
   );
 }

@@ -1,0 +1,33 @@
+Functional Component - ES6
+	Working with data becomes a challange
+		Props and States
+
+in React 16.8 - Hooks, which will make devlopers code easy to work with daata
+
+	It is an inbuilt part of framework for data management
+
+	They are available as a function
+
+		useState - some good operators from ES6 which also got added (...) use of spread operator, light weigh to handle change
+	
+
+	Since this is functional component, it is more static in nature
+		thus we will not be able to change the value for emp, in some function, 
+		also since it is not a class where we can bind the function with in the construcor to be known to VD
+
+		Thus we have useState function, with 2 parameters, 2nd para being the function it self
+
+		When a function component, when ever a state value changes, the component is re-rendered
+
+
+Tomorrow
+	we have an example on 
+		useRef (this is the best hook for performance and to deal with the inputs)
+			very light weight
+	create a customHook
+
+	we jsut have useState
+		     useEffect
+		    useRef
+
+	we end creating custom hooks for an app
