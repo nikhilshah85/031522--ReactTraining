@@ -1,0 +1,28 @@
+React
+	a. Component
+		Class based component
+		Function based component
+	b. Props and States
+	c. React Hooks
+	d. Router to create a SPA 
+	e. Make Rest API calls (fetch api and Axios)
+	f. ES6 and 7 map function, spread operator
+
+	--------------------------------------------------------------
+	This looks good so far, we can easily create a Mid size application for the same 
+
+	Bigger apps are create with more flexibility
+
+	For enterprise app, we always work with pattern
+
+		Thus we follow a pattern - Redux (Ecosystem) - big apps like Instagram (create better application)
+
+		React-Readux
+			somepattern used for client end
+			1. MVC - used in angular early days
+			2. Component - React used it first and used by angular and backbone
+			3. MVVM - used by bootstrap, backbone knockout etc.
+			4. Flux - using flux community of developer created a small framework for react app
+				This was really really good and allowed to manage and plan big applications
+				Facebook took over the community, modified the framework, and called it as Redux
+			
