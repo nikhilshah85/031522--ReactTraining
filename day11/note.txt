@@ -1,0 +1,81 @@
+1. Class Based Component - 
+2. Function based component - this misses the states and props magic
+	useState() 
+	useEffect() - when you want to call the useState function, outside or inside some other function
+	useRefs()
+	useContext() - 1 of my fav, while working with deep level nesting
+			This allows data to be passed to child component
+	create custom Hook ()
+
+
+		<App eName> - state empName:'Nikhil Shah'
+		   <empManagement eNme> - child to app (some information about emp project, not about any employee>
+			<somechild eName>
+				<somechild eName>
+					<empDetails {eName}> -- we want to display empName
+		
+	is called as prop drilling
+		This is the problem, we have to pass it to all the childs
+
+		application will also become heavy
+	when you work with function based component, u have a hook called context
+							createContext() - do it in parent
+							useConext() - where ever u want to 
+
+	-------------------------------------------------------------------------------------------------------------
+
+
+		when the value for state changes, the whole state gets rendered again
+
+
+			const [name,setName] = useState('Nik'); --if this value gets changes, state is re-rendered. which is fine
+
+			but if we have a state which is heacy
+
+			const [productDetails,setProduct] = useState([{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+									{...........................},
+		a small change will render the complete state again, and we do not want that to happen
+			if u make use of useRef()
+		useRef does not render the whole state again
+
+
+			refs
+
+		This is now available in function component
+		but also
+		was available in class based component
+
+
+		well, we should now use document.getElementById(..) - as this will leave the virtual dom and search in browser dom
+			which will affect the performance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

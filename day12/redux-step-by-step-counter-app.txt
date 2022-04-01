@@ -1,0 +1,25 @@
+do fire npm install for the app first to work
+
+1. in the new react application, clear ur app.js default code
+2. add a folder actions
+	add a folder resducers
+	add a file counter.js
+		put the code here (read it well)
+	add a file islogged.js (this is just for the sake of createing, but will be used with combineReducer)
+		put the code here (read it well)
+	add a file index.js (this will combine all the reducers using the combineReducer hook from 'redux'
+		(this is the combinereducer file)
+		notice here, the new variables with are the names of reducers, this new variables will be used
+		put the code here (read it well)
+3. add a file index.js (this is the action file)
+	export all the functions to be used in component
+		put the code here (read it well)
+4. configure the provide, (attach the store to provide)
+	in the index.js (main index.js) - change the code and read well
+    <Provider store={myStore}>
+    <App />
+    </Provider>
+	this converts the react app virtual dom into redux virtual dom
+
+
+	

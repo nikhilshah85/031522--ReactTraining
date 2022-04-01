@@ -1,0 +1,26 @@
+import ReactDom from 'react-dom';
+
+  collectUserInfo = () => {
+  {
+
+    //this is a pure virtual dom working, faster, convinent and easy to use
+    var name =  ReactDom.findDOMNode(this.refs.txtName).value;
+    var no =  ReactDom.findDOMNode(this.refs.txtSalary).value;
+    ReactDom.findDOMNode(this.refs.update).innerHTML = "Hello " + name;
+    ReactDom.findDOMNode(this.refs.txtUpdate).value = name;
+    alert(no);
+
+  }}
+
+
+
+      <input type="text" ref="txtName" placeholder="Enter Name"/>
+      <input type="text" ref="txtSalary" placeholder="Enter Salary"/>
+      <input type="text" ref="txtDesignation" placeholder="Enter Designation"/>
+      <input type="text" ref="txtCity" placeholder="Enter City"/>
+
+      <button onClick={this.collectUserInfo}> Test Ref </button>
+
+      <input type="text" ref="txtUpdate"/>
+
+      <h1 ref="update"> </h1>

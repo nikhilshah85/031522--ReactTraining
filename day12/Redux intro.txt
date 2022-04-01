@@ -26,3 +26,37 @@ React
 				This was really really good and allowed to manage and plan big applications
 				Facebook took over the community, modified the framework, and called it as Redux
 			
+
+	React challanges
+		a. Data management becomes very difficult (state)
+		b. lots of methods, communicaiton, classes, object, memory managemnet etc....becomes a difficult to manage
+
+	
+	Redux is based on react (more simplified, but lengthy)
+
+			component was responsible to have (1 single file)
+				functions (for data manipulations, user actions, state update)
+				state and props management
+				passing and recieving the data with other components
+				make api calls 
+		it has 4 parts
+			a. container (this is the state of an application) - we use to create state in the parent class
+									also we had state at multiple places
+					now we will have it as centeralised location
+			b. Reducer (actions are declared)
+			c. Actions (actions are defined, states are updated)
+			d. providers (pass the state to various component)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
